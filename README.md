@@ -1,2 +1,2 @@
-#CalBMI
-using structure
+#flappy bird
+deep learning game
