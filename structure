@@ -1,0 +1,19 @@
+#CalBMI
+#if,else,elif,except
+height,weight=eval(input"give your height and weight)[use]:"))
+bmi=weight/pow(height,2)
+print("BMI is:{:.2f}".format(bmi))
+who,nat="",""
+if bmi<18.5:
+    who,nat="thin","thin"
+elif 18.5<=bmi<=24:
+    who,nat="fit","fit"
+elif 24<bmi<25:
+    who,nat="fit","fat"
+elif 25<=bmi<29:
+    who,nat="very fat","very fat"
+elif 29<=bmi<30:
+    who,nat="very fat","so fat"
+else
+    who,nat="so fat","so fat"
+print("your bmi is '{0}','{1}'".format(who.nat))
